@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Providers from "@/components/Providers";
-import SidebarContainer from "@/components/SidebarContainer";
 
 export const metadata: Metadata = {
   title: "AI Toolkit",
@@ -14,12 +13,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`antialiased`}>
         <Providers>
-          <SidebarContainer>
-            {children}
-          </SidebarContainer>
+          {children}
         </Providers>
       </body>
     </html>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { SidebarProvider } from './ui/sidebar';
+import { ThemeProvider } from 'next-themes';
 
 export default function Providers({
 	children,
@@ -7,8 +7,8 @@ export default function Providers({
 	children: React.ReactNode;
 }>) {
 	return (
-		<SidebarProvider>
+		<ThemeProvider attribute='class'>
 			{children}
-		</SidebarProvider>
+		</ThemeProvider>
 	)
 }
