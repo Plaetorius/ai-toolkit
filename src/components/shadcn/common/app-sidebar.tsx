@@ -1,12 +1,12 @@
 import * as React from "react"
 import { GalleryVerticalEnd, Minus, Plus } from "lucide-react"
 
-import { SearchForm } from "@/components/search-form"
+import { SearchForm } from "@/components/shadcn/common/search-form"
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@/components/ui/collapsible"
+} from "@/components/shadcn/collapsible"
 import {
   Sidebar,
   SidebarContent,
@@ -20,8 +20,8 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
   SidebarRail,
-} from "@/components/ui/sidebar"
-import { ThemeToggle } from "./ThemeToggle"
+} from "@/components/shadcn/sidebar"
+import { ThemeToggle } from "../../ThemeToggle"
 
 // This is sample data.
 const data = {

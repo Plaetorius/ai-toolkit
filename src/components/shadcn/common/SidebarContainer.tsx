@@ -1,19 +1,19 @@
 "use client";
 
 import React from 'react'
-import { AppSidebar } from "@/components/app-sidebar"
+import { AppSidebar } from "@/components/shadcn/common/app-sidebar"
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/shadcn/breadcrumb"
+import { Separator } from "@/components/shadcn/separator"
 import {
   SidebarInset,
   SidebarTrigger,
-} from "@/components/ui/sidebar"
+} from "@/components/shadcn/sidebar"
 import { useBreadcrumbs } from '@/context/BreadcrumbsContext'
 
 export default function SidebarContainer({

@@ -1,5 +1,5 @@
-import SidebarContainer from "@/components/SidebarContainer";
-import { SidebarProvider } from "@/components/ui/sidebar";
+import SidebarContainer from "@/components/shadcn/common/SidebarContainer";
+import { SidebarProvider } from "@/components/shadcn/sidebar";
 import { BreadcrumbsProvider } from "@/context/BreadcrumbsContext";
 
 export default function DashboardLayout({

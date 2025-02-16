@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import { Switch } from "@/components/ui/switch";
+import { Switch } from "@/components/shadcn/switch";
 import { Sun, Moon } from "lucide-react"; 
 
 export function ThemeToggle() {
